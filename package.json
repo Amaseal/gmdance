@@ -1,0 +1,23 @@
+{
+	"name": "gmd",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-static": "^1.0.0-next.43",
+		"@sveltejs/kit": "next",
+		"svelte": "^3.44.0",
+		"svelte-hamburgers": "^4.0.1",
+		"vite": "^3.1.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"svelte-material-icons": "^2.0.4",
+		"svelte-use-io": "^1.3.0"
+	}
+}
